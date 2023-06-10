@@ -1,7 +1,19 @@
 module.exports = {
-  packagerConfig: {
-   
+  packagerConfig: { 
   },
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'Dev-cSharpe',
+          name: 'electron-autoupdator'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
+  ],
   rebuildConfig: {},
   makers: [
     {
