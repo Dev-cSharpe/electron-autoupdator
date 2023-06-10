@@ -9,8 +9,8 @@ module.exports = {
           owner: 'Dev-cSharpe',
           name: 'electron-autoupdator'
         },
-        prerelease: false,
-        draft: true
+        prerelease: true,
+        draft: false
       }
     }
   ],
